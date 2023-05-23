@@ -12,7 +12,7 @@ public class Colorn3 : MonoBehaviour
         GetComponent<MeshRenderer>().material.color=Color.black;
     }
       private void OnCollisionEnter(Collision other) {
-        if ( other.gameObject.tag!="Player" && other.gameObject.GetComponent<MeshRenderer>().material.color== GetComponent<MeshRenderer>().material.color)
+        if ( other.gameObject.tag!="Player" && other.gameObject.tag== gameObject.tag)
         {
              coun3=1;
         }

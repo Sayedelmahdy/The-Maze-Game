@@ -11,7 +11,7 @@ public class Colorn4 : MonoBehaviour
         GetComponent<MeshRenderer>().material.color=Color.white;
     }
       private void OnCollisionEnter(Collision other) {
-        if ( other.gameObject.tag!="Player" && other.gameObject.GetComponent<MeshRenderer>().material.color== GetComponent<MeshRenderer>().material.color)
+        if ( other.gameObject.tag!="Player" && other.gameObject.tag== gameObject.tag)
         {
              coun4=1;
         }

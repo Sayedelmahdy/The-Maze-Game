@@ -22,6 +22,10 @@ TagManager:
   - spike 15
   - spike 16
   - NotFriendly
+  - Red
+  - Magenta
+  - Black
+  - White
   layers:
   - Default
   - TransparentFX
