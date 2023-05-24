@@ -51,7 +51,7 @@ We welcome contributions to the Unity 3D Maze Game repository. If you have any i
 This project was developed by [Sayed Elmahdy]. Special thanks to the following resources:
 
 - [Unity Technologies](https://unity.com/) for providing the Unity 3D game engine.
-- [Asset Store Name]([link-to-asset-store](https://assetstore.unity.com/packages/2d/textures-materials/floors/yughues-free-ground-materials-13001)) for the [Ball and Texture] used in the game.
+- [Asset Store Name](https://assetstore.unity.com/packages/2d/textures-materials/floors/yughues-free-ground-materials-13001) for the [Ball and Texture] used in the game.
 - Any other individuals or resources deserving acknowledgment.
 
 ## Contact
