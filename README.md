@@ -22,7 +22,7 @@ To run the Unity 3D Maze Game project on your local machine, follow these steps:
 
 If you want to play the Unity 3D Maze Game without Unity 3D installed, follow these steps:
 
-1. Download the game setup file from [this link](https://www.mediafire.com/file/2qxihjr15k1uirh/The+Maze+Setup.exe/file).
+1. Download the game setup file from [this link](https://www.mediafire.com/file/80b7qk647y8k74r/The+maze.exe/file).
 2. Open the downloaded file (`The Maze Setup.exe`).
 3. Follow the on-screen instructions to install the game on your computer.
 4. Once the installation is complete, locate the game in your installed applications or desktop shortcut.
