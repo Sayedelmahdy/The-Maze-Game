@@ -1,5 +1,7 @@
 # Unity 3D Maze Game
 
+![Game Screenshot](images/image.png)
+
 ## Version
 
 Current Version: 1.0.0.4
