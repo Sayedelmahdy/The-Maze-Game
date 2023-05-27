@@ -5,28 +5,41 @@ using UnityEngine;
 public class mover : MonoBehaviour
 {
     public static int hit=0;
-    [SerializeField] float speed=10.0f;
+    [SerializeField] float speed;
     // Start is called before the first frame update
     Rigidbody rb;
+     float xvalue;
+      float zvalue;
+    private void Awake() {
+         rb = GetComponent<Rigidbody>();
+    }
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+       Application.targetFrameRate=60;
         hit=0;
+    }
+    void Update()
+    {
+        input();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-         float xvalue = Input.GetAxis("Horizontal");
-       float zvalue = Input.GetAxis("Vertical");
+         
        Vector3 mov = new Vector3 (zvalue,0.0f,xvalue);
        rb.AddForce(mov*speed);
-       if (Input.GetKey(KeyCode.C))
+       if (Input.GetKey(KeyCode.Space))
        {
-        speed=16;
-        Invoke("returnSpeed",5);
+        speed=18;
+        Invoke("returnSpeed",4);
        }
 
+    }
+    private void input()
+    {
+         xvalue = Input.GetAxis("Horizontal");
+        zvalue = Input.GetAxis("Vertical");
     }
     private void OnCollisionEnter(Collision other) {
         
@@ -37,6 +50,6 @@ public class mover : MonoBehaviour
     }
     void returnSpeed()
     {
-        speed=7;
+        speed=14;
     }
 }

@@ -46,7 +46,7 @@ public class scoreScript : MonoBehaviour
     {
         if (bounsscore!=lastbounsscore)
     {
-        score+=Bouns.bouns;
+        score+=Bouns.bouns-lastbounsscore;
      
        lastbounsscore=Bouns.bouns;
     }

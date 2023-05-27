@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: fcb80843e98eef0448c7cd39be5cabea
+guid: 5ae1b6d4c894f9c449d33837a633a8ec
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       43: 4300000
-    second: WoodenBall
+    second: SplitMetalBall
   - first:
       1001: 100100000
     second: DataTemplate __Singleton__
@@ -75,7 +75,7 @@ ModelImporter:
     useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 4
     normalCalculationMode: 0
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1

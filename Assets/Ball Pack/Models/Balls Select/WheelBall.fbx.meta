@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: fcb80843e98eef0448c7cd39be5cabea
+guid: 74cbada03bcd41d49acec56746acf71e
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       43: 4300000
-    second: WoodenBall
+    second: WheelBall
   - first:
       1001: 100100000
     second: DataTemplate __Singleton__

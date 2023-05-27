@@ -1,11 +1,20 @@
 fileFormatVersion: 2
-guid: fcb80843e98eef0448c7cd39be5cabea
+guid: a97bdcf094fff104d9f67b004b505dd0
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       43: 4300000
-    second: WoodenBall
+    second: Atoms
+  - first:
+      43: 4300002
+    second: Lines
+  - first:
+      43: 4300004
+    second: BuckyBallLines
+  - first:
+      43: 4300006
+    second: BuckyBallAtoms
   - first:
       1001: 100100000
     second: DataTemplate __Singleton__

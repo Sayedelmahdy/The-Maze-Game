@@ -5,14 +5,15 @@ using UnityEngine;
 public class spinnerScript : MonoBehaviour
 {
     // Start is called before the first frame update
+    public float speed = 3f;
     void Start()
     {
         
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        transform.Rotate(0,.4f,0);
+        transform.Rotate(0f, speed * Time.deltaTime / 0.01f,  0f,Space.Self);
     }
 }
